@@ -7,7 +7,7 @@ class NewsTest(unittest.TestCase):
     '''
 
     def setUp(self):
-        
+
         '''
         Set up method that will run before every Test
         '''

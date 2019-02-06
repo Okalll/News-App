@@ -14,7 +14,7 @@ class HeadlinesTest(unittest.TestCase):
         self.new_headline = Headlines(None,'breaking news','breaking break news ','https://www.cnn.com/hakunamatata','image.com/hakunamatata','2017-09-28 16:06:30.439388')
 
     def test_instance(self):
-        
+
         self.assertTrue(isinstance(self.new_headline,Headlines))
 
 if __name__ == '__main__':
